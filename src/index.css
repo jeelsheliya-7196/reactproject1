@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1140px;
+  background-color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+.row{
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo{
+  width: 20%;
+}
+img{
+  width: 100%;
+}
+.w{
+  flex-grow: 0;
+}
+.d-flex{
+  display: flex;
+  align-items: center;
+}
+.search{
+  display: flex;
+  width: 30px;
+  margin-left: 50px;
+}
+.search img{
+  padding-left: 10px;
+}
